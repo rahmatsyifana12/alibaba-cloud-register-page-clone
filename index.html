@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="style.css" rel="stylesheet">
+        <title>UAS HCI</title>
+    </head>
+    <body>
+        <nav>
+            <div class="container">
+                <div class="logo"><a href="#"><img src="https://img.alicdn.com/imgextra/i1/O1CN01TkhOMd216HORYLL6D_!!6000000006935-2-tps-346-140.png" height="60"></a></div>
+                <ul class="menu">
+                    <li><a href="#">Intl - English</a></li>
+                    <li><a href="#">Homepage</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="home">
+            <div class="container">
+                <div id="home-content">
+                    <h2>Create Your Alibaba Cloud Account</h2>
+                    <p>Free Access to Over 50 Products and Up to 12 Months Usage for Elastic Compute Service!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <div class="container">
+                <div class="form-content">
+                    <div class="col-left">
+                    </div>
+                    <div class="col-mid">
+                        <form id="form" class="form" method="POST">
+                            <div class="form-control country">
+                                <select class="select-country" id="select-country">
+                                    <option value="">Albania</option>
+                                    <option value="">Algeria</option>
+                                    <option value="">Brazil</option>
+                                    <option value="">Bulgaria</option>
+                                    <option value="">Canada</option>
+                                    <option value="">Chile</option>
+                                    <option value="">Indonesia</option>
+                                    <option value="">Japan</option>
+                                    <option value="">Serbia</option>
+                                    <option value="">Singapore</option>
+                                </select>
+                                <div class="i">
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="i" height="17px" viewBox="0 0 24 24" width="17px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>
+                                    <small id="country-small">&nbsp; Country/region will be used for currency and tax purposes and cannot be changed after<br>&nbsp;&nbsp;registration.</small>
+                                </div>
+                            </div>
+                            <div class="form-control no-country">
+                                <input type="text" name="email" maxlength="50" placeholder="Enter your email" id="email" onfocusout="validateEmail()">
+                                <div class="space"></div>
+                            </div>
+                            <div class="form-control no-country">
+                                <input type="password" name="password" maxlength="50" placeholder="Enter your password" id="password" onfocusout="validatePassword()">
+                                <div class="space"></div>
+                            </div>
+                            <div class="form-control no-country">
+                                <input type="password" name="password confirm" maxlength="50" placeholder="Confirm your password" id="password-confirm" onfocusout="confirmPassword()">
+                                <div class="space"></div>
+                            </div>
+                            <div class="agreement">
+                                <input type="checkbox" id="agree" class="check-box">
+                                <div class="agreement-text">
+                                    I hereby agree to the Alibaba Cloud International Website <a href="#">Membership
+                                    <div class="spacing-1"></div>
+                                    Agreement</a>, <a href="#">Privacy Policy</a>, <a href="#">Product Terms</a> and <a href="#">Terms of Use</a>, under which I am
+                                    <div class="spacing-1"></div>
+                                    contracting with Alibaba Cloud (Singapore) Private Limited.
+                                </div>
+                            </div>
+                            <input type="submit" value="Confirm" id="confirm">
+                            <div class="sign-in">Already a member? <a href="#">Sign In</a></div>
+                        </form>
+                    </div>
+
+                    <div class="col-right">
+                        <div class="text-1">Account Benefits & Registration Tips</div>
+                        <div class="text-2"><div class="title-text">
+                            Free trial
+                        </div>
+                            Get free hands-on experience with 50+ products. Now up to 12 Months for Elastic Compute Service!</div>
+                        <div class="text-3"><div class="title-text">
+                            Premium Support Services
+                        </div>
+                            <a href="#">1-on-1 pre-sale consultation</a>, 24/7 after-sales technical support with 6 free tickets per quarter</div>
+                        <div class="text-4"><div class="title-text">
+                            How do I select the country or region of my account?
+                        </div>
+                            For enterprise customers, please select the account registration country/region based on your business license. If not, you may be unable to obtain the correct invoice for tax deduction, and may not be eligible for your local tax free policy, or may even be unable to pay for the invoice.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <ul class="menu">
+                        <div class="menu-1">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Legal</a></li>
+                            <li><a href="#">Notice List</a></li>
+                        </div>
+                        <div class="spacing-2"></div>
+                        <div class="menu-2">
+                            <li><a href="#">Alibaba Group</a></li>
+                            <li><a href="#">Taobao Marketplace</a></li>
+                            <li><a href="#">Tmall</a></li>
+                            <li><a href="#">Juhuasuan</a></li>
+                            <li><a href="#">AliExpress</a></li>
+                            <li><a href="#">Alibaba.com</a></li>
+                            <li><a href="#">1688</a></li>
+                            <li><a href="#">Alimama</a></li>
+                            <li><a href="#">Alitrip</a></li>
+                            <li><a href="#">YunOS</a></li>
+                            <li><a href="#">AliTelecom</a></li>
+                            <li><a href="#">AutoNavi</a></li>
+                            <li><a href="#">UCWeb</a></li>
+                            <li><a href="#">Umeng</a></li>
+                            <li><a href="#">Xiami</a></li>
+                            <li><a href="#">DingTalk</a></li>
+                            <li><a href="#">Alipay</a></li>
+                        </div>
+                        <div class="spacing-2"></div>
+                        <div class="menu-3"> @ 2009-2001 Copyright by Alibaba Cloud All rights reserved</div>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
